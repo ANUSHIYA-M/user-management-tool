@@ -47,7 +47,7 @@ const ManageUserData = () => {
       onSubmit={onFormSubmit}
     >
       {(formik) => {
-        const { errors, resetForm } = formik;
+        const { errors } = formik;
         return (
           <Form className="user-form">
             <div className="field-cont user-name-cont">
